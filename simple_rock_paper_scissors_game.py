@@ -11,7 +11,7 @@ choice = 0
 player_score == int(player_score)
 computer_score == int(computer_score)
 #start game loop
-print(f"Welcome to a simple Rock, Paper, Scissors game. As we are just stating, the score is Player: {player_score} versus Computer: {computer_score}")
+print(f"Welcome to a simple Rock, Paper, Scissors game. As we are just starting, the score is Player: {player_score} versus Computer: {computer_score}")
 while bgame_running == "True":
 	player_score = int(player_score)
 	computer_score == int(computer_score)
@@ -44,20 +44,20 @@ while bgame_running == "True":
 			player_score = int(player_score)
 			computer_score = int(computer_score)
 			print(f"Score is currently Player: {player_score} Computer: {computer_score} .")
-		elif other_choice == 2: # rock
+		elif other_choice == 1: # rock
 			print(f"Player Wins!")
 			player_score = player_score + 1
 			player_score = int(player_score)
 			computer_score = int(computer_score)
 			print(f"Score is currently Player: {player_score} Computer: {computer_score} .")
 	elif choice == 3: # scissors
-		if other_choice == 1: # rock
+		if other_choice == 2: # rock
 			print(f"Computer Wins!")
 			computer_score = computer_score + 1
 			player_score = int(player_score)
 			computer_score = int(computer_score)
 			print(f"Score is currently Player: {player_score} Computer: {computer_score} .")
-		elif other_choice == 2: #paper
+		elif other_choice == 1: #paper
 			print(f"Player_Wins")
 			player_score = player_score + 1
 			player_score = int(player_score)
